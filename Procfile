@@ -1,0 +1,1 @@
+web: cd src/search_engine_api && uvicorn app.main:app --host 0.0.0.0 --port $PORT 
